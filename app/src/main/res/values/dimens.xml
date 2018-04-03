@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_padrao">16dp</dimen>
+    <dimen name="largura_altura_img">64dp</dimen>
+    <dimen name="tamanho_texto">18dp</dimen>
+</resources>

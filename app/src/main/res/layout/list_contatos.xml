@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_padrao"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:layout_width="@dimen/largura_altura_img"
+        android:layout_height="@dimen/largura_altura_img"
+        android:id="@+id/imgContato"
+        tools:src="@drawable/p4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNome"
+        tools:text="Joaozinho"
+        android:layout_toRightOf="@+id/imgContato"
+        android:textStyle="bold"
+        style="@style/TextoContato"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="11 1234-5678"
+        android:layout_toRightOf="@+id/imgContato"
+        style="@style/TextoContato"
+        android:layout_alignBottom="@+id/imgContato"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/txtTelefone"
+        />
+
+</RelativeLayout>
